@@ -1,0 +1,31 @@
+﻿@model System.Collections.Generic.IEnumerable<OnlineFileSystem.Models.FileDetail>
+
+@if (Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Upload Time</th>
+                <th>Type</th>
+                <th>Delete</th>
+                <th>Rename</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in Model)
+            {
+                <tr>
+                    <td>@file.Name</td>
+                    <td>@file.Size</td>
+                    <td>@file.UploadTime</td>
+                    <td>@file.Type</td>
+                    <td>Delete</td>
+                    <td>Rename</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

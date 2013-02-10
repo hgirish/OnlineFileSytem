@@ -1,0 +1,13 @@
+﻿@model string[]
+
+Current Location: 
+@for (var i = 0; i < Model.Length; i++)
+{
+    string path = Model[i];
+    for (int j = 1; j <= i; j++)
+    {
+        path = path + "\\" + Model[j];
+    }
+    <a href="?location=@path" title="@path" >@Model[i]</a>
+    <span> \ </span>
+}

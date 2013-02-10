@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFileSystem", "OnlineFileSystem\OnlineFileSystem.csproj", "{EB2E05E8-019B-42E3-8A47-2153A9C39ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineFileSystemTests", "OnlineFileSystemTests\OnlineFileSystemTests.csproj", "{B7C8E477-1C52-4048-A169-EC579603EA01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB2E05E8-019B-42E3-8A47-2153A9C39ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2E05E8-019B-42E3-8A47-2153A9C39ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2E05E8-019B-42E3-8A47-2153A9C39ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2E05E8-019B-42E3-8A47-2153A9C39ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C8E477-1C52-4048-A169-EC579603EA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C8E477-1C52-4048-A169-EC579603EA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C8E477-1C52-4048-A169-EC579603EA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C8E477-1C52-4048-A169-EC579603EA01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
